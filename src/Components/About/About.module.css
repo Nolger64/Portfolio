@@ -1,15 +1,11 @@
 .ContainerAbout{
     width: 100%;
-    height: 150vh;
+    height: 105vh;
 }
-.ContainerGridExp{
-    width: 90%;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+/*Banner de experiencia laboral*/
 .ContainerBannerExp{
+    margin: 20px auto;
     width: 90%;
     height: 20vh;
     display: flex;
@@ -32,4 +28,83 @@
     color: black;
     background-color: rgba(255, 255, 255, 0.486);
     box-shadow: none;
+}
+
+/*Banner de informacion*/
+
+.containerPresentationAbout{
+    margin: auto;
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.imgPhotoAbout{
+    object-fit: contain;
+    width:100%;
+    height:100%;
+}
+.imgPresentationAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw;
+}
+.tittleAbout{
+    margin: 20px 0 5px 0;
+    font-size: 4em;
+}
+.subtittleAbout{
+    margin: 5px 0 10px 0;
+    font-size: 2em;
+}
+.infAbout{
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #84878B;
+}
+@media (max-width: 800px) {
+    .ContainerAbout{
+        width: 100%;
+        height: auto;
+    }
+    /*Banner de experiencia laboral*/
+    .ContainerBannerExp{
+        margin: 20px auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .BannerExp{
+        display: flex;
+        flex-direction: column;
+        height: 35vh;
+        width: 300px;
+        background-color: #14142B;
+        transition: none;
+        color: #7B4AE2;
+    }
+    .BannerExp:hover{
+        color: #7B4AE2;
+        box-shadow: none;
+    }
+    /*Banner de informacion*/
+    .containerPresentationAbout{
+        margin: auto;
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto 40px auto;
+    }
+    .imgPresentationAbout{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+
 }
