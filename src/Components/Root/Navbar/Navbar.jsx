@@ -13,26 +13,26 @@ const NavLinks = (props) => {
 
   return (
     <>
-      <NavLink to="/">
-        <span onClick={CloseMenu}> Home</span>
+      <NavLink onClick={CloseMenu} className="nav" to="/">
+        <span> Home</span>
       </NavLink>
-      <NavLink to="/About">
-        <span onClick={CloseMenu}>Sobre Mi</span>
+      <NavLink  onClick={CloseMenu} to="/About">
+        <span>Sobre Mi</span>
       </NavLink>
-      <NavLink to="/Portfolio">
-        <span onClick={CloseMenu}>Portfolio</span>
+      <NavLink  onClick={CloseMenu} to="/Portfolio">
+        <span>Portfolio</span>
       </NavLink>
-      <NavLink to="/Skills">
-        <span onClick={CloseMenu}>Habilidades</span>
+      <NavLink  onClick={CloseMenu} to="/Skills">
+        <span>Habilidades</span>
       </NavLink>
-      <NavLink to="/Carrer">
-        <span onClick={CloseMenu}>Carrera</span>
+      <NavLink  onClick={CloseMenu} to="/Carrer">
+        <span>Carrera</span>
       </NavLink>
-      <NavLink to="/Recommendations">
-        <span onClick={CloseMenu}>Recomendaciones</span>
+      <NavLink  onClick={CloseMenu} to="/Recommendations">
+        <span>Recomendaciones</span>
       </NavLink>
-      <NavLink to="/Contact">
-        <span onClick={CloseMenu}>Cotacto</span>
+      <NavLink  onClick={CloseMenu} to="/Contact">
+        <span>Cotacto</span>
       </NavLink>
     </>
   );
