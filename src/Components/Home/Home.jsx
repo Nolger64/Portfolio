@@ -1,7 +1,7 @@
 import "./Home.css";
 import useScreenSize from "../../Hook/useScreenSize";
 
-import perfil from "../../Assets/perfil.PNG";
+import perfil from "../../Assets/perfil.png";
 
 const Home = () => {
   const { width } = useScreenSize();
