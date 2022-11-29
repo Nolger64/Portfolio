@@ -55,11 +55,19 @@
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
 }
+.hambur-icon{
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);
+}
 @media (max-width: 800px) {
+    .container{
+        height: 6vh;
+    }
     .hambur{
-        display: inline;
+        display: flex;
         color: #fff;
         cursor: pointer;
+        align-items: center;
     }
     .rigth-bar{
         display: none;

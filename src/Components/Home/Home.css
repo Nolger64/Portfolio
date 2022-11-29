@@ -59,13 +59,10 @@
     color: #fff;
     cursor: pointer;
 }
-.hambur-icon{
-    -webkit-transform: rotate(-90deg); 
-    -moz-transform: rotate(-90deg);
-}
+
 @media (max-width: 800px) {
     .home{
-        height: auto;
+        height: 100vh;
         grid-template-columns: 90%;
         align-items: center;
         justify-content: center;
