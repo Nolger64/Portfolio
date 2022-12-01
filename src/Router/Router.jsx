@@ -8,6 +8,7 @@ import Root from "../Components/Root/Root";
 import Skills from "../Components/Skills/Skills";
 import Recommendations from "../Components/Recommendations/Recommendations";
 import Contact from "../Components/Contact/Contact";
+import Loader from "../Components/Loader/Loader";
 
 export const Router = createBrowserRouter([
     {
@@ -42,6 +43,10 @@ export const Router = createBrowserRouter([
             {
                 path: "/Contact",
                 element: <Contact />
+            },
+            {
+                path: "/Loader",
+                element: <Loader />
             }
         ]
     }

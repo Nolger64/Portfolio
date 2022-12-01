@@ -5,7 +5,6 @@ import perfil from "../../Assets/Captura.png";
 
 const Home = () => {
   const { width } = useScreenSize();
-  console.log(width);
   const goWhatsapp = () => {
     window.open("https://api.whatsapp.com/send?phone=573126613981");
   };

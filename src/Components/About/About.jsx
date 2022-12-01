@@ -8,15 +8,15 @@ const About = () => {
         <div className={style.ContainerBannerExp}>
           <div className={style.BannerExp}>
             <div className={style.bannerInfo}>
-              <span>Conocimientos es</span>
-              <h3>Full Stack</h3>
+              <span>Conocimientos en</span>
+              <h3>Desarrollo web.</h3>
             </div>
             <div className={style.bannerInfo}>
               <span>Decenas de proyectos</span>
               <h3>Experiencia</h3>
             </div>
             <div className={style.bannerInfo}>
-              <span>Desarrollo freelance y</span>
+              <span>Desarrollo freelance</span>
               <h3>UI - UX</h3>
             </div>
           </div>

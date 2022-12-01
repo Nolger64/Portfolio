@@ -3,6 +3,7 @@
     height: 7vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #0F1120;
     padding: 10px;
     border-radius: 3px;
