@@ -99,3 +99,10 @@
         margin: 10px;
     }
   }
+
+
+  /*Global*/
+
+  .mar-1{
+    margin: 20px auto;
+  }

@@ -52,3 +52,21 @@
     align-items: center;
     width: 100%;
 }
+@media (max-width: 600px) {
+    .portfolioContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .portfolioTittle{
+        flex-direction: column;
+        height: auto;
+    }
+    .portfolioTittle{
+        text-align: center;
+    }
+    .portfolioContainerNav{
+        margin: 40px auto 0 auto;
+    }
+}
