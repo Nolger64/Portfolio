@@ -19,14 +19,17 @@ const NavLinks = (props) => {
       <NavLink onClick={props.setOpenMenu} to="/Carrer">
         <span>Carrera</span>
       </NavLink>
-      <NavLink onClick={props.setOpenMenu} to="/Recommendations">
-        <span>Recomendaciones</span>
-      </NavLink>
       <NavLink onClick={props.setOpenMenu} to="/Contact">
         <span>Cotacto</span>
       </NavLink>
     </>
   );
 };
+/*
 
+      <NavLink onClick={props.setOpenMenu} to="/Recommendations">
+        <span>Recomendaciones</span>
+      </NavLink>
+
+*/
 export default NavLinks;

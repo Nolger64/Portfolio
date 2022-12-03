@@ -1,0 +1,39 @@
+.carrerContainer{
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carrerPro{
+    width: auto;
+    height: auto;
+}
+.carrerContainerdiv{
+    display: flex;
+    margin: 30px auto;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.carrerTittle{
+    color: #fff;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 5px;
+    text-align: center;
+}
+.carrerSubTittle{
+    color: #84878B;
+    font-size: large;
+    font-weight: 300;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .carrerContainerdiv{
+        margin: 30px auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
