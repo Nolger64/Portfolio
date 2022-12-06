@@ -16,9 +16,6 @@ const NavLinks = (props) => {
       <NavLink onClick={props.setOpenMenu} to="/Skills">
         <span>Habilidades</span>
       </NavLink>
-      <NavLink onClick={props.setOpenMenu} to="/Carrer">
-        <span>Carrera</span>
-      </NavLink>
       <NavLink onClick={props.setOpenMenu} to="/Contact">
         <span>Cotacto</span>
       </NavLink>

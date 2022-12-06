@@ -21,7 +21,7 @@ const About = () => {
             <div className={style.BannerExp}>
               <div className={style.bannerInfo}>
                 <span>Conocimientos en</span>
-                <h3>Desarrollo web.</h3>
+                <h3>Desarrollo web</h3>
               </div>
               <div className={style.bannerInfo}>
                 <span>Decenas de proyectos</span>

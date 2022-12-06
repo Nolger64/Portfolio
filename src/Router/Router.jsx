@@ -1,6 +1,5 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import About from "../Components/About/About";
-import Carrer from "../Components/Career/Carrer";
 import Home from "../Components/Home/Home";
 import Notfound from "../Components/Notfound/Notfound";
 import Portfolio from "../Components/Portfolio/Portfolio";
@@ -10,7 +9,7 @@ import Recommendations from "../Components/Recommendations/Recommendations";
 import Contact from "../Components/Contact/Contact";
 import Loader from "../Components/Loader/Loader";
 
-export const Router = createBrowserRouter([
+export const Router = createHashRouter([
     {
         path: '/',
         element: <Root />,
@@ -31,10 +30,6 @@ export const Router = createBrowserRouter([
             {
                 path: '/Skills',
                 element: <Skills />
-            },
-            {
-                path: "/Carrer",
-                element: <Carrer />
             },
             {
                 path:"/Recommendations",

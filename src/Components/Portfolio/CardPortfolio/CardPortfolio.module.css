@@ -2,24 +2,29 @@
     color: #fff;
     font-size: xx-large;
     margin: 10px 0;
+    text-align: center;
 }
 .cardSubtittle{
     color: #84878B;
     font-size: medium;
 }
 .cardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 350px;
     height: 370px;
     border: 1px solid #7B4AE2;
-    padding: 10px;
+    padding: 5px 10px 20px 10px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .cardImg{
-    width: 190px;
+    width: 180px;
     border-radius: 5px;
 }
 .cardImgContainer{
-    width: 350px;
+    width: auto;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -41,5 +46,8 @@
     border-radius: 3px;
 }
 @media (max-width: 600px) {
-    
+    .cardContainer{
+        width: 300px;
+    height: 390px;
+    }
 }
